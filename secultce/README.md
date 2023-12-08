@@ -7,8 +7,17 @@
 Installation
 ------------
 
-```sh
+<!-- ```sh
 npm install --save sweetalert2 @sweetalert2/theme-secultce
+``` -->
+
+```sh
+git clone git@github.com:ronnyjohnti/sweetalert2-themes
+```
+### Build
+```sh
+cd sweetalert2/secultce
+npm run build
 ```
 
 Usage
@@ -16,13 +25,17 @@ Usage
 
 With CSS:
 
+Copy the file `secultce.min.css` in `dist` to your project and include:
+
 ```html
 <!-- Include the Secultce theme -->
-<link rel="stylesheet" href="@sweetalert2/theme-secultce/secultce.css">
+<link rel="stylesheet" href="<your-path-project-styles>/secultce.min.css">
 
-<script src="sweetalert2/dist/sweetalert2.min.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js
+"></script>
 ```
-
+<!--
 With SASS:
 
 `your-app.js`:
