@@ -20,7 +20,7 @@ $secultce-success: #66cc66 !default;
 $secultce-danger: #cc3333 !default;
 $secultce-warning: #cc9933 !default;
 $secultce-info: #40b4b4 !default;
-$bootstrap-secondary: #cc9933 !default;
+$secult-secondary: #cc9933 !default;
 $secultce-draft: #0d9ecc !default;
 
 $bootstrap-gray-100: #f8f9fa !default;
@@ -39,9 +39,9 @@ $bootstrap-theme-color-interval: 8% !default;
 $bootstrap-alert-border-level: -9 !default;
 $bootstrap-alert-bg-level: -10 !default;
 $bootstrap-alert-color-level: 6 !default;
-$bootstrap-alert-border-color: mix($swal2-white, $bootstrap-secondary, abs($bootstrap-alert-border-level) * $bootstrap-theme-color-interval) !default;
-$bootstrap-alert-background: mix($swal2-white, $bootstrap-secondary, abs($bootstrap-alert-bg-level) * $bootstrap-theme-color-interval) !default;
-$bootstrap-alert-color: mix($swal2-black, $bootstrap-secondary, abs($bootstrap-alert-color-level) * $bootstrap-theme-color-interval) !default;
+$bootstrap-alert-border-color: mix($swal2-white, $secult-secondary, abs($bootstrap-alert-border-level) * $bootstrap-theme-color-interval) !default;
+$bootstrap-alert-background: mix($swal2-white, $secult-secondary, abs($bootstrap-alert-bg-level) * $bootstrap-theme-color-interval) !default;
+$bootstrap-alert-color: mix($swal2-black, $secult-secondary, abs($bootstrap-alert-color-level) * $bootstrap-theme-color-interval) !default;
 $bootstrap-alert-padding-y: .75rem !default;
 $bootstrap-alert-padding-x: 1.25rem !default;
 $bootstrap-alert-margin-bottom: 1rem !default;
@@ -172,7 +172,7 @@ $swal2-backdrop-transition: background-color .2s;
 $swal2-success: $secultce-success;
 $swal2-warning: $secultce-warning;
 $swal2-info: $secultce-info;
-$swal2-question: $bootstrap-secondary;
+$swal2-question: $secult-secondary;
 
 // INPUT
 $swal2-input-border: $bootstrap-input-border-width solid $bootstrap-input-border-color;
@@ -184,8 +184,6 @@ $swal2-input-padding: $bootstrap-input-padding-y $bootstrap-input-padding-x;
 
 // COMMON VARIABLES FOR ALL ACTION BUTTONS
 $swal2-button-font-weight: 800;
-$swal2-button-inline-padding: 1.3em !default;
-$swal2-button-padding: 0.825em $swal2-button-inline-padding !default;
 
 // CLOSE BUTTON
 $swal2-close-button-width: 2em;
@@ -203,6 +201,7 @@ $swal2-confirm-button-focus-box-shadow: none;
 
 // CANCEL BUTTON
 $swal2-cancel-button-background-color: $bootstrap-gray-400;
+$swal2-cancel-button-color: $bootstrap-gray-600;
 
 // DENY BUTTON
 $swal2-deny-button-background-color: transparent;
@@ -263,7 +262,7 @@ $swal2-toast-buttons-font-size: $bootstrap-toast-font-size;
   border-radius: $bootstrap-input-border-radius;
   width: 100%;
   justify-content: end;
-  padding-inline: $swal2-button-inline-padding;
+  padding-inline: 1.3em;
 }
 
 .swal2-footer {
@@ -315,13 +314,14 @@ $swal2-toast-buttons-font-size: $bootstrap-toast-font-size;
     font-size: 1rem;
 
     &:hover {
-      border-color: darken($bootstrap-secondary, 10%);
-      background-color: darken($bootstrap-secondary, 7.5%);
+      border-color: darken($secult-secondary, 10%);
+      background-color: darken($secult-secondary, 7.5%);
+      color: $swal2-white;
     }
 
     &:active {
-      border-color: darken($bootstrap-secondary, 12.5%);
-      background-color: darken($bootstrap-secondary, 10%);
+      border-color: darken($secult-secondary, 12.5%);
+      background-color: darken($secult-secondary, 10%);
     }
   }
 }
