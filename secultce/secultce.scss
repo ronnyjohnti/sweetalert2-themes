@@ -23,6 +23,10 @@ $secultce-info: #40b4b4 !default;
 $secult-secondary: #cc9933 !default;
 $secultce-draft: #0d9ecc !default;
 
+// Icon
+$secult-icon-size: 2em;
+
+// Color
 $bootstrap-gray-100: #f8f9fa !default;
 $bootstrap-gray-200: #e9ecef !default;
 $bootstrap-gray-300: #dee2e6 !default;
@@ -173,6 +177,7 @@ $swal2-success: $secultce-success;
 $swal2-warning: $secultce-warning;
 $swal2-info: $secultce-info;
 $swal2-question: $secult-secondary;
+$swal2-icon-size: $secult-icon-size;
 
 // INPUT
 $swal2-input-border: $bootstrap-input-border-width solid $bootstrap-input-border-color;
