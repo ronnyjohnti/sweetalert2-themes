@@ -12,6 +12,7 @@
 - [`Material UI`](https://github.com/sweetalert2/sweetalert2-themes/tree/main/material-ui)
 - [`WordPress Admin`](https://github.com/sweetalert2/sweetalert2-themes/tree/main/wordpress-admin)
 - [`Bulma`](https://github.com/sweetalert2/sweetalert2-themes/tree/main/bulma)
+- [`Secult CE`](https://github.com/sweetalert2/sweetalert2-themes/tree/main/secultce)
 - [`Default`](https://github.com/sweetalert2/sweetalert2-themes/tree/main/default)
 
 ## Installation
